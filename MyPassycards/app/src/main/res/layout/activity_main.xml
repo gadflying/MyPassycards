@@ -23,7 +23,8 @@
                 <com.lguipeng.notes.view.FixedRecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent"
+                    android:background="@color/light_red" />
             </android.support.v4.widget.SwipeRefreshLayout>
             <com.melnykov.fab.FloatingActionButton
                 android:id="@+id/fab"
@@ -33,9 +34,9 @@
                 android:layout_margin="20dp"
                 android:padding="4dp"
                 android:src="@drawable/ic_edit_white"
-                fab:fab_colorRipple="?attr/colorPrimary"
-                fab:fab_colorNormal="?attr/colorPrimary"
-                fab:fab_colorPressed="?attr/colorPrimaryDark" />
+                fab:fab_colorRipple="@color/accent_red"
+                fab:fab_colorNormal="@color/accent_red"
+                fab:fab_colorPressed="@color/accent_red_light" />
             <com.pnikosis.materialishprogress.ProgressWheel
                 android:id="@+id/progress_wheel"
                 android:layout_width="75dp"
@@ -43,7 +44,7 @@
                 android:visibility="visible"
                 android:layout_gravity="center"
                 wheel:matProg_spinSpeed="1.2"
-                wheel:matProg_barColor="?attr/colorPrimary"
+                wheel:matProg_barColor="@color/accent_red"
                 wheel:matProg_progressIndeterminate="true" />
             <include layout="@layout/toolbar_shadow_layout"/>
         </FrameLayout>

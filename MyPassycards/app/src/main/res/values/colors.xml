@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="red">#FF6347</color>
-    <color name="dark_red">#F4511E</color>
-    <color name="accent_red">#FF5722</color>
+    <color name="red">#00BCD4</color>
+    <color name="dark_red">#0097A7</color>
+    <color name="accent_red">#FFC107</color>
+    <color name="accent_red_light">#FFEB3B</color>
 
     <color name="brown">#795548</color>
     <color name="dark_brown">#5D4037</color>
     <color name="accent_brown">#795548</color>
-
-
     <color name="blue">#2196F3</color>
     <color name="dark_blue">#1976D2</color>
     <color name="accent_blue">#448AFF</color>
+    <color name="light_red">#E0E0E0</color>
+
+
+
 
     <color name="blue_grey">#607D8B</color>
     <color name="dark_blue_grey">#455A64</color>
@@ -44,5 +47,5 @@
 
     <color name="drawer_scrim_color">#88EEEEEE</color>
     <color name="action_bar_title_color">@android:color/white</color>
-    <color name="window_background">@android:color/white</color>
+    <color name="window_background">#E0E0E0</color>
 </resources>

@@ -12,9 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-/**
- * Created by lgp on 2015/5/29.
- */
+
 public class AccountUtils {
 
     private static final String EMAIL_TYPE = "com.android.email";
